@@ -1,0 +1,32 @@
+.section-login {
+  background-color: rgba(0, 44, 55, 0.8);
+  width: 50%;
+  border: 1px solid grey;
+  margin: 4% auto; }
+  .section-login .loginBox {
+    width: 80%;
+    margin: auto;
+    padding: 5%; }
+  .section-login .btn {
+    margin: 3%; }
+  .section-login .signIn {
+    color: white; }
+  .section-login a:hover {
+    text-decoration: none;
+    color: #ff9800; }
+  .section-login .signuptext {
+    color: white; }
+  .section-login a.login {
+    color: #E65100; }
+  .section-login .input-field input[type=text]:focus {
+    border-bottom: 1px solid #E65100;
+    box-shadow: 0 1px 0 0 #E65100; }
+  .section-login .input-field .prefix.active {
+    color: #E65100; }
+  .section-login .input-field input[type=text] {
+    color: white; }
+  .section-login .input-field .prefix {
+    color: white; }
+  .section-login .input-field input[type=text].valid {
+    border-bottom: 1px solid #E65100;
+    box-shadow: 0 1px 0 0 #E65100; }

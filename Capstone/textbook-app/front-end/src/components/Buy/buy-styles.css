@@ -1,0 +1,84 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/background6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Lato", sans-serif; }
+  .container-fluid .sectionBanner {
+    background-color: rgba(0, 44, 55, 0.8);
+    padding-bottom: 2%; }
+    .container-fluid .sectionBanner form .input-field input[type=text]:focus + label {
+      border-bottom: 1px solid #E65100;
+      box-shadow: 0 1px 0 0 #E65100; }
+    .container-fluid .sectionBanner form .input-field input[type=text] {
+      color: white; }
+    .container-fluid .sectionBanner .row {
+      padding: 0;
+      margin: 0; }
+    .container-fluid .sectionBanner .col-12, .container-fluid .sectionBanner .col-md-6, .container-fluid .sectionBanner .col-md-8, .container-fluid .sectionBanner .col-md-12 {
+      padding: 0;
+      margin: 0; }
+    .container-fluid .sectionBanner button {
+      background-color: #E65100;
+      font-size: 1.2rem;
+      color: white;
+      font-family: "Lato", sans-serif; }
+    .container-fluid .sectionBanner #title {
+      width: 50%; }
+    .container-fluid .sectionBanner .buy {
+      float: left; }
+    .container-fluid .sectionBanner input {
+      float: right;
+      margin-top: 4%; }
+    .container-fluid .sectionBanner .search {
+      margin-left: 47%;
+      margin-top: 5%; }
+    .container-fluid .sectionBanner .btn {
+      margin: 9% 0 0 3%; }
+    .container-fluid .sectionBanner .search {
+      float: left; }
+    .container-fluid .sectionBanner .logobuy {
+      width: 100%;
+      margin: 35% 0 0 25%; }
+  .container-fluid .card.horizontal {
+    background-color: rgba(0, 44, 55, 0.8); }
+    .container-fluid .card.horizontal .card-stacked {
+      background-color: transparent;
+      border: none;
+      padding: 7%; }
+    .container-fluid .card.horizontal .accordion-head {
+      background-color: rgba(0, 44, 55, 0);
+      font-size: 1.4rem;
+      color: #E65100;
+      padding-left: 1%; }
+    .container-fluid .card.horizontal .panel-accordion {
+      background-color: rgba(0, 44, 55, 0);
+      padding-left: 1%; }
+  .container-fluid .contact {
+    color: white; }
+  .container-fluid .show-book {
+    font-size: 1.7rem;
+    margin: 0 0 3% 0;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 1px #000; }
+  .container-fluid .contact {
+    text-align: left;
+    color: #AEB6BF;
+    margin-bottom: 0; }
+  .container-fluid .btn.back {
+    margin: 1% auto 0 auto;
+    width: 7%; }
+
+.contact-info {
+  margin-top: 3%; }
+
+.infobook {
+  text-align: left;
+  font-size: 1.3rem;
+  color: #AEB6BF;
+  text-shadow: 1px 1px 1px #000;
+  margin: 0; }

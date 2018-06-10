@@ -1,0 +1,36 @@
+.container-fluid {
+  font-family: "Lato", sans-serif; }
+  .container-fluid .section-signup {
+    background-color: rgba(0, 44, 55, 0.8);
+    width: 50%;
+    border: 1px solid grey;
+    margin: 4% auto; }
+    .container-fluid .section-signup .signupBox {
+      width: 80%;
+      margin: auto;
+      padding: 5%; }
+    .container-fluid .section-signup p {
+      padding: 3% 0; }
+    .container-fluid .section-signup .logintext {
+      color: white; }
+    .container-fluid .section-signup .login {
+      color: #E65100; }
+    .container-fluid .section-signup .input-field input[type=text]:focus {
+      border-bottom: 1px solid #E65100;
+      box-shadow: 0 1px 0 0 #E65100; }
+    .container-fluid .section-signup .input-field .prefix.active {
+      color: #E65100; }
+    .container-fluid .section-signup .input-field input[type=text] {
+      color: white; }
+    .container-fluid .section-signup .input-field .prefix {
+      color: white; }
+    .container-fluid .section-signup .input-field input[type=text].valid {
+      border-bottom: 1px solid #E65100;
+      box-shadow: 0 1px 0 0 #E65100; }
+  .container-fluid h4 {
+    color: #F8F7F0;
+    font-size: 1.5rem;
+    margin: 4% 0 0 0; }
+  .container-fluid a:hover {
+    text-decoration: none;
+    color: #ff9800; }

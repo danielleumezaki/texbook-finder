@@ -1,0 +1,114 @@
+$font-logo: 'Cutive', serif;
+$font-stack: 'Lato', sans-serif;
+$grid-gutter-width: 0;
+
+.container-fluid {
+    padding: $grid-gutter-width;
+    margin: 0;
+    
+    .section {
+        background-image: url(img/background4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        .row {
+            padding: $grid-gutter-width;
+            margin: 0;
+        }
+
+        .col-12, .col-6 {
+            padding: $grid-gutter-width;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: $font-stack;
+            text-align: left;
+            margin: 5% 0 0 3%;
+            font-size: 6rem;
+            text-shadow: 1px 1px 1px #000;
+            color: white;
+        }
+
+        .subtitle {
+            font-family: $font-stack;
+            text-align: left;
+            margin: 2% 0 8% 3%;
+            font-size: 1.8rem;
+            color: white;
+            text-shadow: 1px 1px 1px #000;
+            
+        }
+
+        .login {
+            font-size: 0.9rem;
+            margin: auto;
+        }
+        
+        .signup {
+            float: right;
+            margin: 13% 20% 0 0;
+        }
+
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #ff9800;
+        }
+
+        .logo {
+            float: left;
+            padding: 2% 0 0 4%;
+            width: 250px;
+        }
+        
+        .logout:hover{
+            cursor: pointer;
+        }
+
+        .buy {
+            width: 100%;
+        }
+
+        .btn {
+            margin: auto;
+            padding: 2% 4% 0 0;
+        }
+
+        .card {
+            width: 60%;
+            margin: 7% auto 0;
+            background-color: rgba(0, 44, 55, 0.8);
+            color: white;
+            font-size: 1.6rem;
+            text-shadow: 1px 1px 1px #000;
+            font-weight: 100;
+            .card-content {
+                margin-bottom: 5%;
+            }
+        }
+
+        a.cardbutton {
+            color: #E65100;
+            background-color: rgba(0, 44, 55, 0.3);
+            padding: 2% 10% 2% 10%;
+            box-shadow: 1px 1px 1px #000;
+            font-weight: 400;
+        }
+
+        a.cardbutton:hover {
+            color: #E65100;
+            background-color: rgba(0, 116, 145, 0.329);
+            padding: 2% 10% 2% 10%;
+            box-shadow: 1px 1px 1px #000;
+        }
+
+        .sell-icon {
+            margin: 7% 0 0 3%;
+        }
+        
+    }
+
+}

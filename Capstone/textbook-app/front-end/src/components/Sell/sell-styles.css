@@ -1,0 +1,38 @@
+.container-fluid {
+  font-family: "Lato", sans-serif; }
+  .container-fluid h4 {
+    color: #F8F7F0;
+    font-size: 1.5rem;
+    margin: 3% 0 0 8%; }
+  .container-fluid .formBook {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 4% auto;
+    padding: 5%;
+    background-color: rgba(0, 44, 55, 0.8); }
+    .container-fluid .formBook .input-field input[type=text]:focus {
+      border-bottom: 1px solid #E65100;
+      box-shadow: 0 1px 0 0 #E65100; }
+    .container-fluid .formBook .input-field .prefix.active {
+      color: #E65100; }
+    .container-fluid .formBook .input-field input[type=text] {
+      color: white; }
+    .container-fluid .formBook .input-field .prefix {
+      color: white; }
+    .container-fluid .formBook .input-field input[type=text].valid {
+      border-bottom: 1px solid #E65100;
+      box-shadow: 0 1px 0 0 #E65100; }
+  .container-fluid .mybooks {
+    margin-top: 5%; }
+    .container-fluid .mybooks a {
+      color: white; }
+  .container-fluid .modal {
+    width: 100vw;
+    height: 100%;
+    background-color: transparent; }
+  .container-fluid .modal-backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .container-fluid .btn {
+    background-color: #E65100; }

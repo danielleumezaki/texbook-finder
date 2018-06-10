@@ -1,0 +1,52 @@
+$color-container: #F8F7F0;
+$font-stack: 'Lato', sans-serif;
+
+.container-fluid {
+    font-family: $font-stack;
+
+    h4 {
+        color: $color-container;
+        font-size: 1.5rem;
+        margin: 3% 0 0 8%;
+    }
+
+    .formBook {
+        width: 80%;
+        border: 1px solid grey;
+        margin:  4% auto;
+        padding: 5%;
+        background-color: rgba(0, 44, 55, 0.8);
+
+        .input-field input[type=text]:focus {
+            border-bottom: 1px solid #E65100;
+            box-shadow: 0 1px 0 0 #E65100;
+        }
+        .input-field .prefix.active {
+            color: #E65100;
+        }
+
+        .input-field input[type=text] {
+            color: white;
+        }
+
+        .input-field .prefix {
+            color: white;
+        }
+
+        .input-field input[type=text].valid {
+            border-bottom: 1px solid #E65100;
+            box-shadow: 0 1px 0 0 #E65100;
+          }
+    }
+
+    .mybooks {
+        margin-top: 5%;
+        a {
+            color: white;
+        }
+    }
+
+    .btn {
+        background-color: #E65100;
+    }
+}

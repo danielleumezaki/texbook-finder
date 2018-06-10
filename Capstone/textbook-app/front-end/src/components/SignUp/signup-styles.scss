@@ -1,0 +1,60 @@
+$color-container: #F8F7F0;
+$font-stack: 'Lato', sans-serif;
+
+.container-fluid {
+    font-family: $font-stack;
+    
+    .section-signup {
+        background-color: rgba(0, 44, 55, 0.8);
+        width: 50%;
+        border: 1px solid grey;
+        margin:  4% auto;
+
+        .signupBox {
+            width: 80%;
+            margin: auto;
+            padding: 5%;
+        }
+        p {
+            padding: 3% 0;
+        }
+
+        .logintext {
+            color: white;
+        }
+
+        .login {
+            color: #E65100
+        }
+
+        .input-field input[type=text]:focus {
+            border-bottom: 1px solid #E65100;
+            box-shadow: 0 1px 0 0 #E65100;
+          }
+          .input-field .prefix.active {
+            color: #E65100;
+          }
+
+          .input-field input[type=text] {
+            color: white;
+        }
+        .input-field .prefix {
+            color: white;
+        }
+        
+        .input-field input[type=text].valid {
+            border-bottom: 1px solid #E65100;
+            box-shadow: 0 1px 0 0 #E65100;
+          }
+    }
+
+    h4 {
+        color: $color-container;
+        font-size: 1.5rem;
+        margin: 4% 0 0 0;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #ff9800;
+    }
+}

@@ -1,0 +1,133 @@
+$font-logo: 'Cutive', serif;
+$font-stack: 'Lato', sans-serif;
+$grid-gutter-width: 0;
+$color-container: white;
+
+.container-fluid {
+    padding: $grid-gutter-width;
+    margin: 0;
+    background-image: url(img/background6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: $font-stack;
+
+    .sectionBanner {
+        background-color: rgba(0, 44, 55, 0.8);
+        padding-bottom: 2%;
+
+        form {
+           
+            .input-field input[type=text]:focus + label {
+                border-bottom: 1px solid #E65100 ;
+                box-shadow: 0 1px 0 0 #E65100 ;
+            }
+            
+            .input-field input[type=text] {
+                color: white;
+            }
+        }
+        .row {
+            padding: $grid-gutter-width;
+            margin: 0;
+        }
+
+        .col-12, .col-md-6, .col-md-8, .col-md-12{
+            padding: $grid-gutter-width;
+            margin: 0;
+        }
+
+        button {
+            background-color: #E65100;
+            font-size: 1.2rem;
+            color: white;
+            font-family: $font-stack;
+        }
+
+        #title {
+            width: 50%;
+        }
+
+        .buy{
+            float: left;
+        }
+
+        input {
+            float: right;
+            margin-top: 4%;
+        }
+        .search {
+            margin-left: 47%;
+            margin-top: 5%;
+        }
+        
+        .btn {
+            margin: 9% 0 0 3%;
+        }
+        .search {
+            float: left;
+        }
+
+        .logobuy{
+            width: 100%;
+            margin: 35% 0 0 25%;
+        }
+        
+    }
+
+    .card.horizontal{
+        background-color: rgba(0, 44, 55, 0.8);
+        .card-stacked {
+            background-color: transparent;
+            border: none;
+            padding: 7%;
+        }
+        .accordion-head {
+            background-color: rgba(0, 44, 55, 0);
+            font-size: 1.4rem;
+            color: #E65100;
+            padding-left: 1%;
+        }
+        .panel-accordion{
+            background-color: rgba(0, 44, 55, 0);
+            padding-left: 1%;
+        }
+    }
+
+    .contact {
+        color: white;
+    }
+
+    .show-book {
+        font-size: 1.7rem;
+        margin: 0 0 3% 0;
+        font-weight: 400;
+        text-align: left;
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    .contact {
+        text-align: left;
+        color: #AEB6BF;
+        margin-bottom: 0;
+    }
+
+    .btn.back {
+        margin: 1% auto 0 auto;
+        width: 7%;
+    }
+
+}
+
+.contact-info {
+    margin-top: 3%;
+}
+
+.infobook {
+    text-align: left;
+    font-size: 1.3rem;
+    color: #AEB6BF;
+    text-shadow: 1px 1px 1px #000;
+    margin:0;
+}

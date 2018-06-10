@@ -1,0 +1,32 @@
+table {
+    background-color: rgba(0, 44, 55, 0.8); 
+    color: white;
+    width: 70%;
+    margin: 1% auto 0;
+
+    th {
+        font-size: 1.6rem;
+    }
+
+    td {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+}
+
+#nobooks {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    }
+
+.back-icon {
+    margin:  2% auto 0;
+}
+
+.back {
+    display: block;
+        
+}

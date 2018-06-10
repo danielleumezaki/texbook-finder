@@ -1,0 +1,72 @@
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+  .container-fluid .section {
+    background-image: url(img/background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+    .container-fluid .section .row {
+      padding: 0;
+      margin: 0; }
+    .container-fluid .section .col-12, .container-fluid .section .col-6 {
+      padding: 0;
+      margin: 0; }
+    .container-fluid .section h1 {
+      font-family: "Lato", sans-serif;
+      text-align: left;
+      margin: 5% 0 0 3%;
+      font-size: 6rem;
+      text-shadow: 1px 1px 1px #000;
+      color: white; }
+    .container-fluid .section .subtitle {
+      font-family: "Lato", sans-serif;
+      text-align: left;
+      margin: 2% 0 8% 3%;
+      font-size: 1.8rem;
+      color: white;
+      text-shadow: 1px 1px 1px #000; }
+    .container-fluid .section .login {
+      font-size: 0.9rem;
+      margin: auto; }
+    .container-fluid .section .signup {
+      float: right;
+      margin: 13% 20% 0 0; }
+    .container-fluid .section a {
+      color: white; }
+    .container-fluid .section a:hover {
+      color: #ff9800; }
+    .container-fluid .section .logo {
+      float: left;
+      padding: 2% 0 0 4%;
+      width: 250px; }
+    .container-fluid .section .logout:hover {
+      cursor: pointer; }
+    .container-fluid .section .buy {
+      width: 100%; }
+    .container-fluid .section .btn {
+      margin: auto;
+      padding: 2% 4% 0 0; }
+    .container-fluid .section .card {
+      width: 60%;
+      margin: 7% auto 0;
+      background-color: rgba(0, 44, 55, 0.8);
+      color: white;
+      font-size: 1.6rem;
+      text-shadow: 1px 1px 1px #000;
+      font-weight: 100; }
+      .container-fluid .section .card .card-content {
+        margin-bottom: 5%; }
+    .container-fluid .section a.cardbutton {
+      color: #E65100;
+      background-color: rgba(0, 44, 55, 0.3);
+      padding: 2% 10% 2% 10%;
+      box-shadow: 1px 1px 1px #000;
+      font-weight: 400; }
+    .container-fluid .section a.cardbutton:hover {
+      color: #E65100;
+      background-color: rgba(0, 116, 145, 0.329);
+      padding: 2% 10% 2% 10%;
+      box-shadow: 1px 1px 1px #000; }
+    .container-fluid .section .sell-icon {
+      margin: 7% 0 0 3%; }
