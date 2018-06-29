@@ -4,16 +4,7 @@ import './signup-styles.css'
 import firebase from 'firebase'
 import axios from 'axios'
 
-/*Setting Firebase*/
-const config = {
-    apiKey: "AIzaSyC88eC92VFds4KyJft6PT-DYTvn5TgY7dY",
-    authDomain: "copper-moon-204418.firebaseapp.com",
-    databaseURL: "https://copper-moon-204418.firebaseio.com",
-    projectId: "copper-moon-204418",
-    storageBucket: "",
-    messagingSenderId: "1036969319369"
-};
-firebase.initializeApp(config);
+
 
 class SignUp extends Component {
 
