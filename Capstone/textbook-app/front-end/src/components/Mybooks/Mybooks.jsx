@@ -17,6 +17,19 @@ class Mybooks extends Component {
                             <td>{book.year}</td>
                             <td>${book.price}</td>
                             <td>{book.comment}</td>
+                            <td>
+                                <form action="#">
+                                    <p>
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="check"
+                                                id="defaultCheck1" />
+                                            <span>Sold</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </td>
                         </tr>
                     </tbody>
                 )
@@ -76,6 +89,7 @@ class Mybooks extends Component {
                                 <th>Year</th>
                                 <th>Price</th>
                                 <th>Comments</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
                         {renderMyBooks}
